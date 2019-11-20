@@ -1,9 +1,8 @@
 Lab_5 <-function(){
-d<- read.csv("https://raw.githubusercontent.com/antomys/5LabDataAnalysis/master/ratfeed.csv?token=AMCAJYFFCAAHS3YENBGXWZ25ZQOSQ",  stringsAsFactors = FALSE)
-d1<-read.csv("https://raw.githubusercontent.com/antomys/5LabDataAnalysis/master/ratfeed.csv?token=AMCAJYFFCAAHS3YENBGXWZ25ZQOSQ",  stringsAsFactors = FALSE)
+d<- read.csv("https://raw.githubusercontent.com/MeiGold/Analysis-of-variance/master/ratfeed.csv",  stringsAsFactors = FALSE)
+d1<-read.csv("https://raw.githubusercontent.com/MeiGold/Analysis-of-variance/master/ratfeed.csv",  stringsAsFactors = FALSE)
 
 d
-View(d)
 
 WeightAmount <-(d[,c(1,2)])
 
